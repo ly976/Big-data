@@ -1,11 +1,3 @@
-/**
- * [Chart.PieceLabel.js]{@link https://github.com/emn178/Chart.PieceLabel.js}
- *
- * @version 0.2.0
- * @author Chen, Yi-Cyuan [emn178@gmail.com]
- * @copyright Chen, Yi-Cyuan 2017
- * @license MIT
- */
 (function () {
   function drawArcText(context, str, centerX, centerY, radius, startAngle, endAngle) {
     context.save();
