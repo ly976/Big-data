@@ -13,8 +13,8 @@
             fileInput.addEventListener('change', function (e) {
                var file = fileInput.files[0];
                var reader = new FileReader();
-               var x_label = new Array();
-               var y_label = new Array();
+               var x_label = [];
+               var y_label = [];
                reader.onload = function () {
                    fileDisplayArea.innerHTML = reader.result;
 
